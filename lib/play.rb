@@ -38,8 +38,8 @@ end
 
 def play(board)
   move = 0
-  while move >= 9
+  while move < 9
+    move += 1
     turn(board)
-    move +=1
   end
 end
